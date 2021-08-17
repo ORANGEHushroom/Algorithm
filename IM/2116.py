@@ -6,6 +6,7 @@ for _ in range(dice_num):
 rotate = {0 : 5, 1 : 3, 2 : 4, 3 : 1, 4 : 2, 5 : 0}
 
 sum_result = []
+
 for i in range(6):
     # 1층 주사위
     max_list = []

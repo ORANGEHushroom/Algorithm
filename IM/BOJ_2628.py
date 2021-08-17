@@ -3,7 +3,6 @@ b, x1 = map(int,input().split()) # 세로 슬라이스 1 4
 c, y2 = map(int,input().split()) # 0 2
 
 
-
 x, y = map(int, input().split())
 garo = [0, x]  # 가로
 sero = [0, y]  # 세로
