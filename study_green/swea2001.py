@@ -9,7 +9,7 @@ for tc in range(1, T+1):
     for i in range(box):
         for j in range(box):
             total = []
-            for k in range(i,i+weapon):
+            for k in range(i,i+weapon):  
                 for p in range(j,j+weapon):
                     if k >= box or p >= box:
                         continue
