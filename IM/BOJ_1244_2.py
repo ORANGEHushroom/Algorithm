@@ -1,6 +1,3 @@
-import sys
-sys.stdin = open('switch.txt')
-
 num_switch = int(input())
 li = list(map(int, input().split()))
 num_student = int(input())
