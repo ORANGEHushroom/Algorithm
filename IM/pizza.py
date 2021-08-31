@@ -1,7 +1,7 @@
 import sys
 sys.stdin = open('input.txt')
 
-t = int(input())
+t = int(input()) # input
 for tc in range(1, t+1):
     fire, num_pizza = map(int, input().split()) # 3, 5
     alpha = list(map(int, input().split()))
