@@ -4,7 +4,7 @@ li = list(input() for _ in range(row))
 lis = []
 for i in range(col-7): # 10이라고 하면 col 즉 세로 10이니 8이면 3번 가능 
     # 1~8 2~9 3~10
-    for j in range(row-7): #13이면 row 즉 가로 13이니 6번 가능
+    for j in range(row-7): #13이면 row 즉 가로 13이니 6번 가능이니까..
         for k in range(i,i+8): #1~8
             for g in range(j,j+8):
                 if li[k][g] == 'B':
