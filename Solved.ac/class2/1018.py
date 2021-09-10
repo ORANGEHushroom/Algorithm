@@ -32,6 +32,6 @@ for i in range(N-7):
                         first_W = first_W+1
                     if board[k][l] != 'W':
                         first_B = first_B + 1
-        repair.append(first_W)#체스판이 W로 시작할때 경우의 수
-        repair.append(first_B)#체스판이 B로 시작할때 경우의 수
+        repair.append(first_W)# 체스판이 W로 시작할때 경우의 수
+        repair.append(first_B)# 체스판이 B로 시작할때 경우의 수
 print(min(repair))
