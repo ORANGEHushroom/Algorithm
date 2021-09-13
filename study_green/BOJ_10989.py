@@ -1,6 +1,6 @@
 import sys
 sys.stdin = open('10989.txt')
-# 메모리 초과식
+# 메모리 초과
 #  T = int(input())
 
 # li = []
