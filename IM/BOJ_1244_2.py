@@ -13,7 +13,7 @@ for _ in range(num_student):
     elif gender == 2:
         k = min(number-1, num_switch - number) #2
         j = 0
-        while j <= k: #0 1 2
+        while j <= k: #0 1 2 
             if li[number+j-1] == 0 and li[number-j-1] == 0:
                 li[number+j-1] = 1
                 li[number-j-1] = 1
@@ -40,6 +40,6 @@ for r in range(1, len(li)+1):
 
 
 # for i in range(1,len(li)+1): #20개씩 끊어내기위해,,인덱스0따로빠질까봐 1부터
-#     print(li[i-1], end=" ") #1부터 시작햇으니 범위 넘을까봐 -1
+#     print(li[i-1], end=" ") # 1부터 시작햇으니 범위 넘을까봐 -1
 #     if i % 20 == 0:
 #         print() #20개마다 프린트하기위해 
