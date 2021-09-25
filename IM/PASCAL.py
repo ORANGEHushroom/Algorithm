@@ -5,10 +5,10 @@ t = int(input())
 
 for tc in range(1, t+1):
     print('#{}'.format(tc))
-    a = int(input()) #4
+    a = int(input()) # 4
 
     b = [[0]*a for _ in range(a)]
-    for i in range(a): #0 1 2 3
+    for i in range(a): # 0 1 2 3
         for j in range(a):
             if i == j or j == 0:
                 b[i][j] = 1
