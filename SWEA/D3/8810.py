@@ -1,7 +1,7 @@
 #당근밭 옆 고구마밭
 import sys
 sys.stdin = open('8810.txt')
-
+# runtime
 t = int(input())
 for tc in range(1, t+1):
     dist = int(input()) # 10
