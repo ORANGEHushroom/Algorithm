@@ -2,15 +2,6 @@ import sys
 sys.stdin = open('4881.txt')
 
 
-# def comb(new_arr):
-#     total = []
-#     a = 0
-#     while a < len(new_arr):
-#         for i in range(len(new_arr)):
-#             new_arr[a][i]
-#             a+=1
-
-
 # T = int(input())
 # for t in range(1, T+1):
 #     print('#{}'.format(t), end=" ")
