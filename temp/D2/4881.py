@@ -1,16 +1,6 @@
 import sys
 sys.stdin = open('4881.txt')
 
-
-# T = int(input())
-# for t in range(1, T+1):
-#     print('#{}'.format(t), end=" ")
-#     n = int(input())
-#     arr = [list(map(int, input().split())) for _ in range(n)]
-#     new_arr = list(map(list, zip(*arr)))
-    
-#     # 조합의 합이네.. 콤비네이션 근데 itertools못쓴다고?
-
 # row를 파라미터로 받는 최소 합을 찾는 함수
 def find_min(row):
     global partial_sum, min_sum
