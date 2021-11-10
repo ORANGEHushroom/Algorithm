@@ -2,6 +2,7 @@ import sys
 sys.stdin = open('7854.txt')
 
 # python 문제가 아님
+
 t = int(input())
 for tc in range(1, t+1):
     a = int(input())
